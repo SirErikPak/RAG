@@ -97,8 +97,6 @@ These tools are required if you want to process PDFs with Python libraries like:
 
 **Installation:**
 
-**Installation:**
-
 - `conda install -c conda-forge poppler`
 - `pip install pymupdf`
 
