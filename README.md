@@ -4,12 +4,12 @@ This work presents a LangChain-powered Retrieval-Augmented Generation (RAG) pipe
 
 ## Create New Environment
 
-`conda create —name reg_env python=3.13.5`
+- `conda create —name reg_env python=3.13.5`
 
 - For jupyter notebook
-`conda install ipykernel`
-`python -m ipykernel install --user --name=rag_env`
-`pip install -U jupyterlab ipywidgets`
+  - `conda install ipykernel`
+  - `python -m ipykernel install --user --name=rag_env`
+  - `pip install -U jupyterlab ipywidgets`
 
 ## LangChain for building LLM-powered applications in Python
 
@@ -23,7 +23,7 @@ This command installs LangChain plus all available integration modules, covering
 LangChain integration packages (e.g., langchain-openai, langchain-community)
 For advanced or specific integrations, install additional packages like langchain-openai or langchain-community after the core LangChain install. This modular approach keeps your environment lean and lets you add only the features you need.
 
-`pip install 'langchain[all]'`
+- `pip install 'langchain[all]'`
 
 What it is:
 A standalone package containing community-contributed integrations for LangChain.
@@ -33,17 +33,18 @@ Examples: Hugging Face endpoints, local Llama models, various document loaders, 
 When to use:
 If you need integrations that are not in the core LangChain package or want access to the latest community-supported features.
 
-`pip install langchain-community`
-`pip install numpy pandas`
+- `pip install langchain-community`
+- `pip install numpy pandas`
 
 You should see both langchain and langchain-community listed there. If langchain-community is missing, you haven't installed it in the right place.
 
-`pip list | grep langchain`
+- `pip list | grep langchain`
 
 ## Install the Unstructured Library
 
 For most document types (including PDFs), run
-`pip install "unstructured[all-docs]"`
+
+- `pip install "unstructured[all-docs]"`
 
 ## Poppler is a PDF rendering toolkit. It includes command-line tools like:
 
@@ -56,8 +57,8 @@ For most document types (including PDFs), run
 - unstructured
 - langchain
 
-`conda install -c conda-forge poppler`
-`pip install pymupdf`
+- `conda install -c conda-forge poppler`
+- `pip install pymupdf`
 
 ## Should be install already, double check
 
@@ -69,4 +70,4 @@ For most document types (including PDFs), run
 
 ## The sentence-transformers library for HuggingFaceEmbeddings
 
-`pip install sentence-transformers`
+- `pip install sentence-transformers`
