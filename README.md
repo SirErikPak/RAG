@@ -50,7 +50,7 @@ For most document types (including PDFs), run
 - pdfinfo – extracts metadata (used by pdf2image)
 - pdftoppm – converts PDFs to images (used internally by unstructured, langchain, etc.)
 
-## These tools are required if you want to process PDFs with Python libraries like:
+## These tools are required if you want to process PDFs with Python libraries like
 
 - pdf2image
 - unstructured
@@ -59,7 +59,7 @@ For most document types (including PDFs), run
 `conda install -c conda-forge poppler`
 `pip install pymupdf`
 
-## should be install already, double check
+## Should be install already, double check
 
 `pip install -U pypdf`
 `pip install -U unstructured`
@@ -67,6 +67,6 @@ For most document types (including PDFs), run
 `pip install -U python-docx`
 `pip install -U langchain-community unstructured openpyxl`
 
-## You'll need the sentence-transformers library for HuggingFaceEmbeddings
+## The sentence-transformers library for HuggingFaceEmbeddings
 
 `pip install sentence-transformers`
