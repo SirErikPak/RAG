@@ -11,9 +11,9 @@ This work presents a LangChain-powered Retrieval-Augmented Generation (RAG) pipe
   - `python -m ipykernel install --user --name=rag_env`
   - `pip install -U jupyterlab ipywidgets`
 
-- `pip install 'langchain[all]'`
-
 ## LangChain Community Package
+
+- `pip install 'langchain[all]'`
 
 **What it is:**
 A standalone package containing community-contributed integrations for LangChain.
@@ -103,6 +103,9 @@ These tools are required if you want to process PDFs with Python libraries like:
 - `pip install pymupdf`
 
 ## Additional Dependencies
+
+- Install tesseract and the English language data by default
+  - `conda install -c conda-forge tesseract`
 
 **Should be installed already, double check:**
 
