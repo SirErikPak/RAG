@@ -1,5 +1,16 @@
 # RAG (Retrieval-Augmented Generation)
 
+This work presents a LangChain-powered Retrieval-Augmented Generation (RAG) pipeline that enables advanced semantic querying over PDF documents. Through systematic text preprocessing, embedding generation, and vectorized search, the system supports both FAISS and Chroma as interchangeable high-performance vector store backends, enhancing flexibility and retrieval accuracy.
+
+## Create New Environment
+
+- `conda create --name rag_env python=3.13.5`
+
+- For jupyter notebook
+  - `conda install ipykernel`
+  - `python -m ipykernel install --user --name=rag_env`
+  - `pip install -U jupyterlab ipywidgets`
+
 - `pip install 'langchain[all]'`
 
 ## LangChain Community Package
@@ -25,15 +36,6 @@ If you need integrations not in the core LangChain package or want access to lat
 - `pip list | grep langchain`
 
 You should see both langchain and langchain-community listed. If langchain-community is missing, you haven't installed it in the right place.resents a LangChain-powered Retrieval-Augmented Generation (RAG) pipeline that enables advanced semantic querying over PDF documents. Through systematic text preprocessing, embedding generation, and vectorized search, the system supports both FAISS and Chroma as interchangeable high-performance vector store backends, enhancing flexibility and retrieval accuracy.
-
-## Create New Environment
-
-- `conda create --name rag_env python=3.13.5`
-
-- For jupyter notebook
-  - `conda install ipykernel`
-  - `python -m ipykernel install --user --name=rag_env`
-  - `pip install -U jupyterlab ipywidgets`
 
 ## LangChain for building LLM-powered applications in Python
 
