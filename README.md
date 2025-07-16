@@ -61,11 +61,11 @@ For most document types (including PDFs), run
 
 ## Should be install already, double check
 
-`pip install -U pypdf`
-`pip install -U unstructured`
-`pip install -U pdfminer.six`
-`pip install -U python-docx`
-`pip install -U langchain-community unstructured openpyxl`
+- `pip install -U pypdf`
+- `pip install -U unstructured`
+- `pip install -U pdfminer.six`
+- `pip install -U python-docx`
+- `pip install -U langchain-community unstructured openpyxl`
 
 ## The sentence-transformers library for HuggingFaceEmbeddings
 
