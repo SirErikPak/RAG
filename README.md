@@ -120,3 +120,15 @@ These tools are required if you want to process PDFs with Python libraries like:
 For embedding models:
 
 - `pip install sentence-transformers`
+
+## Vector Databases
+
+- Chroma DB is an open-source embedding database. It's designed to make it easy to build LLM applications by providing a simple way to store, query, and manage embeddings.
+  - `pip install chromadb`
+- Faiss is a library for efficient similarity search and clustering of dense vectors. It's developed by Facebook AI and is highly optimized for performance, especially with large datasets.
+- Faiss's primary GPU acceleration is built on NVIDIA CUDA. This means that the faiss-gpu package is designed to leverage NVIDIA GPUs, which are typically found in Linux and Windows machines, not macOS.
+  - `pip install faiss-cpu`
+
+## Generate requirements.txt
+
+- pip freeze > requirements.txt
