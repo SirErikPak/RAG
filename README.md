@@ -32,6 +32,13 @@ This work presents a LangChain-powered Retrieval-Augmented Generation (RAG) pipe
 - Faiss is a library for efficient similarity search and clustering of dense vectors. It's developed by Facebook AI and is highly optimized for performance, especially with large datasets.
 - Faiss's primary GPU acceleration is built on NVIDIA CUDA. This means that the faiss-gpu package is designed to leverage NVIDIA GPUs, which are typically found in Linux and Windows machines, not macOS.
   - `pip install faiss-cpu`
+- Use PostgreSQL Vector Database
+
+## Addtional Installation
+
+- `pip install PyMuPDF`
+- `brew install poppler`
+- `brew install tesseract`
 
 ## Addtional Information
 
@@ -65,4 +72,4 @@ You should see both langchain and langchain-community listed there. If langchain
 
 ## Generate requirements.txt
 
-- pip freeze > requirements.txt
+- `pip freeze > requirements.txt`
