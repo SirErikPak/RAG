@@ -16,6 +16,7 @@ This work presents a LangChain-powered Retrieval-Augmented Generation (RAG) pipe
 - `pip install 'langchain[all]'`
 - `pip install Pandas numpy`
 - `pip install langchain-community`
+- `pip install -U langchain-huggingface`
 
 ## Install the Unstructured Library
 
