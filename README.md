@@ -34,6 +34,7 @@ This work presents a LangChain-powered Retrieval-Augmented Generation (RAG) pipe
 - Faiss's primary GPU acceleration is built on NVIDIA CUDA. This means that the faiss-gpu package is designed to leverage NVIDIA GPUs, which are typically found in Linux and Windows machines, not macOS.
   - `pip install faiss-cpu`
 - Use PostgreSQL Vector Database
+  - `pip install sqlalchemy\[asyncio\] asyncpg psycopg pgvector`
 
 ## Addtional Installation
 

@@ -9,6 +9,7 @@ Untitled*.*
 *test*.*
 # C extensions
 *.so
+.env
 
 # Distribution / packaging
 .Python
