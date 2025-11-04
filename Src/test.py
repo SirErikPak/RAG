@@ -26,6 +26,7 @@
 # print(similarity)
 
 
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 
 queries = ['Calculate the n-th factorial']
